@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar1.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -20,7 +20,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I'm a passionate Mobile developer with experience developing applications with
-              <br /> <i><b className="purple">Flutter Technologies</b></i>
+              <br /> <i><b className="purple">Mobile</b></i> and <i><b className="purple">Flutter Technologies</b></i>
               <br />
               <br />I am strongly interested in learning new technologies and implementing them in my projects.
               <br />

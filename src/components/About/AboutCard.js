@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Oki </span>
             from <span className="purple"> Cirebon, Indonesia.</span>
             <br />
-            I am currently employed as a <span className="purple"> Mobile Developer (Flutter)</span>
+            I am currently employed as a <span className="purple"> Mobile Developer</span>
             <br />at <span className="purple"> PT. Fungsitama Cipta Teknologi. </span>
             <br />
 

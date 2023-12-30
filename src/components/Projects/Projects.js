@@ -2,10 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import absence from "../../Assets/Projects/absence.png";
+import buma_approval from "../../Assets/Projects/buma_approval.png";
 import klikdiabetes from "../../Assets/Projects/klikdiabetes.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import intiwi from "../../Assets/Projects/intiwi.png";
+import siap from "../../Assets/Projects/siap.png";
 
 function Projects() {
   return (
@@ -24,60 +25,44 @@ function Projects() {
               imgPath={klikdiabetes}
               isBlog={false}
               title="Klik Diabetes"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Klikdiabetes build with React Native, a popular framework for building cross-platform mobile applications. The application leverages the capabilities of React Native, Material-UI components, and Firebase services to provide a seamless and feature-rich user experience for individuals managing diabetes. "
               imgst
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={klikdiabetes}
+              imgPath={absence}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Absence"
+              description="Project Absence build with Flutter, features that include location detection, digital signatures, and the capture of user photos during the attendance process. solution for companies or organizations aiming to automate and simplify attendance processes. this project becomes an indispensable tool for efficient attendance management."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={klikdiabetes}
+              imgPath={buma_approval}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="Buma Approval"
+              description="Buma Approval application built with Flutter, is designed for the approval process of Material and Purchase Requests within a company. It comes equipped with features such as material approval and purchase request approval. Additionally, the application includes a realtime notification feature to alert users when approvals have been completed."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={intiwi}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Intiwi"
+              description="Intiwi is developed using Java and is utilized in the production process with key features including barcode scanning and printing. The application is also seamlessly integrated with the company's ERP system."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={siap}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="SIAP"
+              description="SIAP is an integrated application program created using Java to all cargo processing through one system, covering everything from Data Collection, Weight and Volume Processing, Payment and Tracking System."
             />
           </Col>
         </Row>

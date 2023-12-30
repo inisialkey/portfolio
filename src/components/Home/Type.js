@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "Software Developer",
-          "Mobile Developer (Flutter)",
+          "Mobile Developer",
         ],
         autoStart: true,
         loop: true,

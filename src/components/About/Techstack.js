@@ -9,6 +9,7 @@ import {
 import {
   SiFirebase,
   SiLaravel,
+  SiDart
 } from "react-icons/si";
 import { RiFlutterFill } from "react-icons/ri";
 import { FaFigma, FaDatabase, } from "react-icons/fa";
@@ -18,6 +19,9 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <RiFlutterFill />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDart />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
