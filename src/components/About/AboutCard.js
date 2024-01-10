@@ -9,10 +9,10 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Oki </span>
-            from <span className="purple"> Cirebon, Indonesia.</span>
+            from <span className="purple"> Jakarta, Indonesia.</span>
             <br />
-            I am currently employed as a <span className="purple"> Mobile Developer</span>
-            <br />at <span className="purple"> PT. Fungsitama Cipta Teknologi. </span>
+            I am currently specializing in <span className="purple"> Mobile Development</span>
+            <br />Feel free to get in touch and talk about opportunities and side projects.
             <br />
 
             <br />
