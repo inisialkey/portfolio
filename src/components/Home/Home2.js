@@ -19,12 +19,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a passionate Mobile developer with experience developing applications with
-              <br /> <i><b className="purple">Mobile</b></i> and <i><b className="purple">Flutter Technologies</b></i>
+              I'm a Mobile App Developer with experience in designing new features from ideation to production,
+              implementation of wireframes and design flows into high performance software applications.
+              I take into consideration the user experience while writing reusable and efficient code.
+              I passionately combine good design, technology, and innovation in all my projects,
+              which I like to accompany from the first idea to release. Currently, I'm focused on mobile development.
+              {/* <br /> <i><b className="purple">Mobile</b></i> and <i><b className="purple">Flutter Technologies</b></i>
               <br />
               <br />I am strongly interested in learning new technologies and implementing them in my projects.
               <br />
-              <br />I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.
+              <br />I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team. */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
