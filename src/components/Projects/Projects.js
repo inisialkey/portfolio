@@ -7,6 +7,7 @@ import buma_approval from "../../Assets/Projects/buma_approval.png";
 import klikdiabetes from "../../Assets/Projects/klikdiabetes.png";
 import intiwi from "../../Assets/Projects/intiwi.png";
 import siap from "../../Assets/Projects/siap.png";
+import mytravel from "../../Assets/Projects/my_travel.png";
 
 function Projects() {
   return (
@@ -45,6 +46,15 @@ function Projects() {
               isBlog={false}
               title="Buma Approval"
               description="Buma Approval application built with Flutter, is designed for the approval process of Material and Purchase Requests within a company. It comes equipped with features such as material approval and purchase request approval. Additionally, the application includes a realtime notification feature to alert users when approvals have been completed."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mytravel}
+              isBlog={false}
+              title="My Travel"
+              description="My Travel is a travel application designed to provide a seamless and enjoyable travel experience for users. Built using Flutter, an open-source UI framework developed by Google, My Travel offers high performance and an attractive user interface across multiple platforms, including iOS and Android."
             />
           </Col>
 
