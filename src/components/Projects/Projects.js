@@ -26,8 +26,11 @@ function Projects() {
               imgPath={klikdiabetes}
               isBlog={false}
               title="Klik Diabetes"
-              description="Klikdiabetes build with React Native, a popular framework for building cross-platform mobile applications. The application leverages the capabilities of React Native, Material-UI components, and Firebase services to provide a seamless and feature-rich user experience for individuals managing diabetes. "
-              imgst
+              description="Klikdiabetes build with React Native, a popular framework for building cross-platform mobile applications. The application leverages the capabilities of React Native, Material-UI components, and Firebase services to provide a seamless and feature-rich user experience for individuals managing diabetes."
+              playStoreLink="https://play.google.com/store/apps/details?id=com.kalbe.klikdiabetes&hl=id&gl=US"
+              appStoreLink="https://apps.apple.com/id/app/klik-diabetes/id1541593080"
+              isPlayStore="true"
+              isAppStore="true"
             />
           </Col>
 
