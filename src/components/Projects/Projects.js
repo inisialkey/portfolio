@@ -8,6 +8,9 @@ import klikdiabetes from "../../Assets/Projects/klikdiabetes.png";
 import intiwi from "../../Assets/Projects/intiwi.png";
 import siap from "../../Assets/Projects/siap.png";
 import mytravel from "../../Assets/Projects/my_travel.png";
+import bumabarcode from "../../Assets/Projects/buma_barcode.png";
+import myquran from "../../Assets/Projects/my_quran.png";
+import salesreport from "../../Assets/Projects/sales_report.png";
 
 function Projects() {
   return (
@@ -75,6 +78,33 @@ function Projects() {
               imgPath={siap}
               isBlog={false}
               title="SIAP"
+              description="SIAP is an integrated application program created using Java to all cargo processing through one system, covering everything from Data Collection, Weight and Volume Processing, Payment and Tracking System."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={myquran}
+              isBlog={false}
+              title="My Quran"
+              description="My Travel is a travel application designed to provide a seamless and enjoyable travel experience for users. Built using Flutter, an open-source UI framework developed by Google, My Travel offers high performance and an attractive user interface across multiple platforms, including iOS and Android."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={salesreport}
+              isBlog={false}
+              title="Sales Report"
+              description="Intiwi is developed using Java and is utilized in the production process with key features including barcode scanning and printing. The application is also seamlessly integrated with the company's ERP system."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bumabarcode}
+              isBlog={false}
+              title="Buma Barcode"
               description="SIAP is an integrated application program created using Java to all cargo processing through one system, covering everything from Data Collection, Weight and Volume Processing, Payment and Tracking System."
             />
           </Col>
