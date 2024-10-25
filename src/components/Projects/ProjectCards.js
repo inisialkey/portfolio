@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaAppStoreIos } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 
 function ProjectCards(props) {
@@ -24,6 +25,12 @@ function ProjectCards(props) {
           <Button variant="primary" href={props.appStoreLink} target="_blank">
             <FaAppStoreIos /> &nbsp;
             App Store
+          </Button>
+        )}
+        {props.isGithub && (
+          <Button variant="primary" href={props.appGithubLink} target="_blank">
+            <FaGithub /> &nbsp;
+            Github
           </Button>
         )}
 

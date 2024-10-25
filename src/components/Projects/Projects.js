@@ -29,7 +29,7 @@ function Projects() {
               imgPath={klikdiabetes}
               isBlog={false}
               title="Klik Diabetes"
-              description="Klikdiabetes build with React Native, a popular framework for building cross-platform mobile applications. The application leverages the capabilities of React Native, Material-UI components, and Firebase services to provide a seamless and feature-rich user experience for individuals managing diabetes."
+              description="KliDiabetes is an innovative mobile application designed to help people manage their diabetes effectively. It combines advanced tracking features, personalized insights, and educational resources to support users in maintaining optimal blood sugar levels and living a healthier life."
               playStoreLink="https://play.google.com/store/apps/details?id=com.kalbe.klikdiabetes&hl=id&gl=US"
               appStoreLink="https://apps.apple.com/id/app/klik-diabetes/id1541593080"
               isPlayStore="true"
@@ -39,46 +39,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={absence}
+              imgPath={salesreport}
               isBlog={false}
-              title="Absence"
-              description="Project Absence build with Flutter, features that include location detection, digital signatures, and the capture of user photos during the attendance process. solution for companies or organizations aiming to automate and simplify attendance processes. this project becomes an indispensable tool for efficient attendance management."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={buma_approval}
-              isBlog={false}
-              title="Buma Approval"
-              description="Buma Approval application built with Flutter, is designed for the approval process of Material and Purchase Requests within a company. It comes equipped with features such as material approval and purchase request approval. Additionally, the application includes a realtime notification feature to alert users when approvals have been completed."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={mytravel}
-              isBlog={false}
-              title="My Travel"
-              description="My Travel is a travel application designed to provide a seamless and enjoyable travel experience for users. Built using Flutter, an open-source UI framework developed by Google, My Travel offers high performance and an attractive user interface across multiple platforms, including iOS and Android."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={intiwi}
-              isBlog={false}
-              title="Intiwi"
-              description="Intiwi is developed using Java and is utilized in the production process with key features including barcode scanning and printing. The application is also seamlessly integrated with the company's ERP system."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={siap}
-              isBlog={false}
-              title="SIAP"
-              description="SIAP is an integrated application program created using Java to all cargo processing through one system, covering everything from Data Collection, Weight and Volume Processing, Payment and Tracking System."
+              title="Sales Report"
+              description="Sales Report App is a comprehensive tool designed for businesses and logistics companies to efficiently track and manage their sales and air waybill (AWB) data. This app offers detailed reporting features, allowing users to monitor AWB activity by agents and airlines."
             />
           </Col>
 
@@ -87,16 +51,9 @@ function Projects() {
               imgPath={myquran}
               isBlog={false}
               title="My Quran"
-              description="My Travel is a travel application designed to provide a seamless and enjoyable travel experience for users. Built using Flutter, an open-source UI framework developed by Google, My Travel offers high performance and an attractive user interface across multiple platforms, including iOS and Android."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={salesreport}
-              isBlog={false}
-              title="Sales Report"
-              description="Intiwi is developed using Java and is utilized in the production process with key features including barcode scanning and printing. The application is also seamlessly integrated with the company's ERP system."
+              description="My Quran is a powerful and easy-to-use mobile application designed to provide users with a seamless and enriching experience when reading and interacting with the Holy Quran. It includes a full collection of all 114 surahs, detailed surah information, tracking of your last read surah, and bookmarking features to enhance your spiritual journey."
+              appGithubLink="https://github.com/inisialkey/my-quran"
+              isGithub="true"
             />
           </Col>
 
@@ -104,10 +61,56 @@ function Projects() {
             <ProjectCard
               imgPath={bumabarcode}
               isBlog={false}
-              title="Buma Barcode"
-              description="SIAP is an integrated application program created using Java to all cargo processing through one system, covering everything from Data Collection, Weight and Volume Processing, Payment and Tracking System."
+              title="Product Barcode Scanner"
+              description="Product Barcode Scanner App is a versatile and powerful solution designed to streamline the entire product lifecycle, from receiving items to sending them to the final destination (site). This app is built for businesses, warehouses, and logistics teams to ensure efficient tracking, inventory management, and seamless operations."
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={buma_approval}
+              isBlog={false}
+              title="Approval"
+              description="Approval App is a powerful and streamlined solution designed to manage and automate the approval process for Material Requests (MR) and Purchase Requests (PR). It simplifies the workflow for reviewing, approving, or rejecting requests, making procurement and material management efficient and transparent for businesses of all sizes."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={absence}
+              isBlog={false}
+              title="Absence"
+              description="Absence App is a comprehensive attendance management solution designed to streamline employee check-ins and check-outs, track attendance history, and monitor locations with geofencing capabilities. It provides an efficient way for businesses to manage and monitor employee attendance, ensuring accuracy and transparency."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mytravel}
+              isBlog={false}
+              title="My Travel"
+              description="My Travel is a mobile exploration app designed to help users discover exciting destinations, and explore the world with ease. Whether you're planning your next adventure or just exploring new travel ideas, My Travel offers all the tools you need to make your journey memorable and hassle-free."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={intiwi}
+              isBlog={false}
+              title="Intiwi"
+              description="Intiwi app is a comprehensive solution for product tracking, quality control, and inventory management within factory environments, fully integrated with ERP systems for seamless data synchronization and process automation."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={siap}
+              isBlog={false}
+              title="SIAP"
+              description="SIAP app is a powerful tool designed to streamline and enhance the handling, tracking, and management of cargo operations in airport environments. This app facilitates efficient processing, and monitoring of cargo shipments, ensuring compliance with aviation regulations and improving overall cargo throughput."
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
