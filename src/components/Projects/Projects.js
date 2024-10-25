@@ -90,6 +90,8 @@ function Projects() {
               isBlog={false}
               title="My Travel"
               description="My Travel is a mobile exploration app designed to help users discover exciting destinations, and explore the world with ease. Whether you're planning your next adventure or just exploring new travel ideas, My Travel offers all the tools you need to make your journey memorable and hassle-free."
+              appGithubLink="https://github.com/inisialkey/travel_app"
+              isGithub="true"
             />
           </Col>
 
