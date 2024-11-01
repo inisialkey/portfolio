@@ -29,7 +29,7 @@ function Projects() {
               imgPath={klikdiabetes}
               isBlog={false}
               title="Klik Diabetes"
-              description="KliDiabetes is an innovative mobile application designed to help people manage their diabetes effectively. It combines advanced tracking features, personalized insights, and educational resources to support users in maintaining optimal blood sugar levels and living a healthier life."
+              description="Klik Diabetes is an innovative mobile application designed to help people manage their diabetes effectively. It combines advanced tracking features, personalized insights, and educational resources to support users in maintaining optimal blood sugar levels and living a healthier life."
               playStoreLink="https://play.google.com/store/apps/details?id=com.kalbe.klikdiabetes&hl=id&gl=US"
               appStoreLink="https://apps.apple.com/id/app/klik-diabetes/id1541593080"
               isPlayStore="true"
@@ -90,6 +90,8 @@ function Projects() {
               isBlog={false}
               title="My Travel"
               description="My Travel is a mobile exploration app designed to help users discover exciting destinations, and explore the world with ease. Whether you're planning your next adventure or just exploring new travel ideas, My Travel offers all the tools you need to make your journey memorable and hassle-free."
+              appGithubLink="https://github.com/inisialkey/travel_app"
+              isGithub="true"
             />
           </Col>
 
